@@ -1,0 +1,99 @@
+/* General styling for larger screens */
+.account-container {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.account-container h1 {
+  color: #26a69a;
+  font-size: 4rem;
+  margin-bottom: 50px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.account-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  flex: 1;
+}
+
+.account-section {
+  text-align: center;
+}
+
+.account-section i.material-icons {
+  font-size: 6rem;
+  color: #0dc7b5;
+  margin-bottom: 20px;
+}
+
+.account-section h4 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.account-section p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Media queries for tablets (768px and below) */
+@media (max-width: 768px) {
+  .account-container h1 {
+    font-size: 3rem;
+    text-align: center; /* Center the title on smaller screens */
+    margin-left: 0;
+  }
+
+  .account-info {
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center;
+  }
+
+  .account-section {
+    margin-bottom: 30px; /* Add spacing between stacked sections */
+  }
+
+  .account-section i.material-icons {
+    font-size: 5rem; /* Slightly smaller icons */
+  }
+
+  .account-section h4 {
+    font-size: 1.5rem;
+  }
+
+  .account-section p {
+    font-size: 1rem;
+  }
+}
+
+/* Media queries for mobile devices (480px and below) */
+@media (max-width: 480px) {
+  .account-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+
+  .account-info {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px; /* Add padding for small screens */
+  }
+
+  .account-section i.material-icons {
+    font-size: 4rem;
+  }
+
+  .account-section h4 {
+    font-size: 1.2rem;
+  }
+
+  .account-section p {
+    font-size: 0.9rem;
+  }
+}
