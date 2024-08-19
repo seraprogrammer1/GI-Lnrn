@@ -41,27 +41,24 @@
   }
   
   .home-features {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-around;
+    margin-left: 300px;
     margin-top: 40px;
-    position: relative;
-    padding: 10%;
+    padding-bottom: 50px;
   }
   
   .feature {
-    /* align-items: center; */
+    align-items: center;
     transform: translateX(-80px);
   }
   
-  .icon {
-    font-size: 40px;
-    color: #50e1ba;
-    text-align: center;
-    margin-right: 100px;
-    margin-bottom: 25px;
+  .icons{
+    height: 40px;
+    margin-right: 80px;
   }
-  
+
   .heading-tag {
     text-align: center;
     font-size: 15px;
