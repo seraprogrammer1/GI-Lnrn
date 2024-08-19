@@ -1,0 +1,64 @@
+/* questions.css */
+.questions-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 10px 0;
+  color: green;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  max-width: fit-content;
+}
+
+button:hover {
+  background-color: #1976d2;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  input[type="text"] {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
