@@ -1,19 +1,14 @@
 import React from "react";
-import "../css/home.css"
+import "../css/home.css";
 import logo from "../pages/image.png";
 import bolt from "../pages/bolt-solid.svg";
 import money from "../pages/money-bills-solid.svg";
 import user from "../pages/user-solid.svg";
 
-
 const home = () => {
   return (
     <div className="home-container">
-      <img
-        src={logo}
-        alt="Centered"
-        className="home-image"
-      />
+      <img src={logo} alt="home-image" className="home-image" />
       <h2 className="home-text">
         Your guided path to programming enlightenment
       </h2>
@@ -32,7 +27,7 @@ const home = () => {
           </p>
         </div>
         <div className="feature">
-        <img src={money} alt="money" className="icons"></img>
+          <img src={money} alt="money" className="icons"></img>
           <p className="heading-tag">Rewarding</p>
           <p className="feature-description">
             Our app is designed to be both challenging and rewarding, so you can
@@ -43,7 +38,7 @@ const home = () => {
           </p>
         </div>
         <div className="feature">
-        <img src={user} alt="user" className="icons"></img>
+          <img src={user} alt="user" className="icons"></img>
           <p className="heading-tag">Personal SME</p>
           <p className="feature-description">
             Welcome to the path of knowledge. Our app is like having a personal

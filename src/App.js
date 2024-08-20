@@ -3,7 +3,7 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import "./components/css/results.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/pages/home";
+import Home from "./components/pages/Home";
 import Accounts from "./components/pages/account";
 import Quiz from "./components/pages/quiz";
 import "materialize-css/dist/css/materialize.min.css";
@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Header/>
+        <Header />
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
             <Route path="/questions" element={<Questions />} />
           </Routes>
         </div>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );
